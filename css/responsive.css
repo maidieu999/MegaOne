@@ -1,0 +1,452 @@
+/* mobile and tablet */
+@media (max-width: 1040px){
+    /* header and home */
+    .header__social{
+        display: none;
+    }
+    .header__navigation{
+        display: none;
+    }
+    .header__top{
+        justify-content: space-between;
+    }
+    /* quality section */
+    .quality__main-content {
+        flex-direction: column;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .sectiion__title{
+        font-family: var(--font2);
+    }
+    .title__sub-bg{
+        width: 50px;
+    }
+    .title__small-text{
+        font-size: 15px;
+    }
+    .sectiion__title{
+        font-family: var(--font2);
+    }
+    
+    .quality__left{
+        justify-content: center;
+    }
+    .quality__right {
+        margin:auto!important;
+        padding: 4rem 5rem 0 5rem;
+    }
+    .right__item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .item__text {
+        width: auto;
+    }
+    /* delicous menu styling */
+    .menu__list {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3rem 0;
+    }
+    .menu__item-header{
+        font-size: 20px;
+    }
+    .menu__content-item{
+        display: block;
+        padding: 0 1.5rem;
+    }
+    .product {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product .header{
+        font-size: 16px;
+    }
+    .product .price span{
+        font-size: 20px;
+    }
+    .product:last-child{
+        border-bottom: 1px solid var(--textgray);
+    }
+    /* delicous menu styling */
+    .menu__list {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3rem 0;
+    }
+    .menu__item-header{
+        font-size: 20px;
+    }
+    .menu__content-item{
+        display: block;
+        padding: 0 1.5rem;
+    }
+    .product {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product .header{
+        font-size: 16px;
+    }
+    .product .price span{
+        font-size: 20px;
+    }
+    .product:last-child{
+        border-bottom: 1px solid var(--textgray);
+    }
+    .checkout__content .row {
+        flex-direction: column;
+    }
+    .menu__content-item {
+        position: initial;
+        width: 100%;
+        display: none;
+    }
+    .content__block.block--left,
+    .content__block.block--right {
+        width: 100%;
+    }
+    .block--right{
+        padding-left: 0;
+    }
+    .block--left{
+        padding-right: 0;
+    }
+    /* blog section styling */
+    .blog__info{
+        text-align: center;
+    }
+    .blog-item__text{
+        text-align: center;
+        line-height: 1.4rem;
+    }
+}
+/* mobile */
+@media (max-width: 739px){
+    p{
+        font-size: 12px;
+    }
+    /* header and home */
+    .list__img{
+        display: none;
+    }
+    
+    .header__top {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .header__top.fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        height: 50px;
+    }
+    .header__logo img {
+        width: 112px;
+    }
+    .home__wrap{
+        font-family: var(--font2);
+    }
+    .home__content{
+        transform: translateY(-9%);
+    }
+    .home__subtitle{
+        font-size: 25px;
+    }
+    .home__title{
+        font-size: 40px;
+    }
+    .home__text{
+        font-size: 15px;
+        padding: 0 4rem;
+    }
+    
+    /* delicous menu styling */
+    .menu__list {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3rem 0;
+    }
+    .menu__item-header{
+        font-size: 20px;
+    }
+    .menu__content-item{
+        display: block;
+        padding: 0 1.5rem;
+    }
+    .product {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product .header{
+        font-size: 16px;
+    }
+    .product .price span{
+        font-size: 20px;
+    }
+    .product:last-child{
+        border-bottom: 1px solid var(--textgray);
+    }
+    /* intro section styling */
+    .intro__row {
+        flex-direction: column;
+    }
+    .intro__item {
+        text-align: center;
+    }
+    .intro__header {
+        font-size: 21px;
+    }
+    
+    .intro__text {
+        font-size: 14px;
+    }
+    .btn-readmore {
+        font-size: 13px;
+    }
+    .intro__box {
+        width: 70%;
+        height: 248px;
+        margin: auto;
+    }
+    
+    .intro__box i {
+        font-size: 30px;
+        margin-bottom: .8rem;
+    }
+    
+    .intro__box .intro__number {
+        font-size: 32px;
+        margin: .8rem 0;
+    }
+    .checkout .img__left{
+        display: none;
+    }
+    .checkout .img__right{
+        display: none;
+    }
+    /* book section styling */
+    .btn-booknow {
+        font-size: 12px;
+        padding: 7px 38px;
+    }
+    .bookevent .img__left,
+    .bookevent .img__right
+    {
+        display: none;
+    }
+    /* foodgallery styling */
+    .foodgallery .title{
+        margin-bottom: 2rem;
+    }
+    .gallery-item{
+        padding: 5px 21px;
+    }
+    .carousel__item.item {
+        text-align: center;
+    }
+    .deals-item__text{
+        text-align: center;
+        line-height: 1.4rem;
+    }
+    .deals-item__price {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    /* contact and book table styling */
+    .contact__block {
+        width: 100%;
+    }
+    .contact .title {
+        text-align: center;
+        padding: 1rem 0;
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+    .contact__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .contact__item i {
+        font-size: 20px;
+        padding: .8rem 0;
+    }
+    .book__block{
+        width: 100%;
+        padding: 0 21px;
+    }
+    .book__block .title{
+        margin-top: 4rem;
+    }
+    .book__block form{
+        flex-direction: column;
+        width: 100%;
+    }
+    button.btn.btn-booktable {
+        display: inline-block;
+        width: 138px;
+        margin: auto;
+        margin-top: .5rem;
+    }
+    /* footer styling */
+    
+    .footer__content{
+        text-align: center;
+    }
+    .footer__left-text{
+        margin: auto;
+        padding: .5rem 0;
+        line-height: 1.4rem
+    }
+    
+    .social__list{
+        justify-content: center;
+    }
+    .copyright__text{
+        text-align: center;
+        padding: .5rem 0;
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 740px) and (max-width: 1040px){
+    /* header and home */
+    .header__logo{
+        text-align: center;
+    }
+    .list__img div {
+        transform: scale(0.65);
+    }
+    .home__text {
+        max-width: 470px;
+    }
+    .img--1 {
+        left: 141px;
+        bottom: 25px;
+    }
+    .img--5 {
+        right: 156px;
+        top: 2px;
+    }
+    .img--6 {
+        right: -42px;
+        bottom: 63px;
+    }
+    .img--7 {
+        position: absolute;
+        top: 32px;
+        left: 245px;
+    }
+    .img--4 {
+        left: 200px;
+        top: -94px;
+    }
+    .checkout .img__left {
+        transform: scale(0.7) translate(-350px, -194px);
+    }
+    /* intro */
+    .intro__item {
+        width: 25%;
+        padding: .5rem;
+    }
+    .intro__header {
+        font-size: 24px;
+        line-height: 2rem;
+    }
+    .btn-readmore{
+        font-size: 13px;
+    }
+    .intro__box .box__front i {
+        font-size: 30px;
+    }
+    .intro__number {
+        font-size: 25px;
+        padding: .5rem 0;
+    }
+    .intro__text {
+        font-size: 13px;
+    }
+    /* bookevent */
+    .bookevent .img__right {
+        transform: translate(504px, -150px) scale(0.7);
+        height: 0;
+    }
+    .quality__content .img__left {
+        transform: translate(-101px, 0px);
+        height: 0;
+    }
+    /* food gallery */
+    .gallery__main-content {
+        margin-top: 2rem;
+    }
+    /* blog */
+    .blogs {
+        flex-direction: column;
+    }
+    .blog__right .blog__box {
+        width: 80%;
+        margin: auto;
+    }
+    .contact__block {
+        font-size: 10px;
+        margin-bottom: 2rem;
+    }
+    /* footer */
+    .copyright__text {
+        padding: .9rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
