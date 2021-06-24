@@ -175,7 +175,7 @@
         font-size: 20px;
     }
     .menu__content-item{
-        display: block;
+        display: none;
         padding: 0 1.5rem;
     }
     .product {
